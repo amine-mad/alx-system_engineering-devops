@@ -1,0 +1,2 @@
+#!/bin/bash
+find "$PWD" -type f -empty -printf "%f\n"; find "$PWD" -type d -empty -printf "%f\n"
