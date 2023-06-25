@@ -1,5 +1,3 @@
 #!/bin/bash
-
 mime_type=$(file --mime-type -b "$1")
 echo "MIME type: $mime_type"
-
